@@ -11,22 +11,13 @@ body {
 }
 
 .grid-container1 {
-  justify-content: space-evenly;
-  align-items: center;
+  background-image: url(../assets/background_dawn.svg);
+  background-size: auto;
   display: grid;
-  grid-template-columns: 80px 1000px auto 20px;
-  grid-template-rows: 200px 200px;
-  grid-gap: 20px;
-  background-color: #40a886;
-  padding: 20px;
-}
-
-.grid-container1 > div {
-  background-color: #000000;
-  color: #ffffff;
-  text-align: center;
-  padding: 21px 0;
-  font-size: 30px;
+  grid-template-columns: auto;
+  grid-template-rows: 1000px;
+  padding: 0;
+  margin: 0;
 }
 
 .grid-container2 {
